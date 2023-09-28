@@ -1,0 +1,33 @@
+@import 'minireset.css/minireset.css';
+
+:root {
+  --c-theme: #f42069;
+  --c-bg: black;
+  --c-fg: white;
+  --bar-height: 45px;
+  --bar-padding: var(--gap);
+  --gap: 8px;
+  --f-alpha: "Clash Display Variable", "Clash Display";
+  --f-beta: "Archivo";
+  --f-size: 20px;
+  --i-size: 24px;
+}
+
+body {
+  background: #111;
+  color: white;
+
+  font-family: var(--f-beta);
+  font-size: var(--f-size);
+}
+
+* {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+img {
+  height: var(--i-size);
+  vertical-align: middle;
+}
